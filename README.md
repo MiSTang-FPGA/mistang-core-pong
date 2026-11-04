@@ -10,4 +10,6 @@ Pong for MiSTang (Sipeed Tang Nano 20K). Written from scratch.
 
 ![frame after 900 ticks, from simulation](docs/img/sim-pong.png)
 
-Status: logic and the UART stream are verified in simulation. Board screenshot: pending.
+Status: logic and the UART stream are verified in simulation. Runs on a real Tang Nano 20K (2026-11-04): HDMI frame captured with a UVC capture card, below. The UART stream was not re-tested on the board (the USB-UART bridge returned no data in that session).
+
+![720p HDMI capture from the board](docs/img/board-hdmi.png)
